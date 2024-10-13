@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="com.thinkitdevit.perfsave.aspect.LogExecutionTimeAspect"/>
+    </aspects>
+    <weaver options="-verbose -showWeaveInfo">
+        <include within="com.thinkitdevit.perfsave..*"/>
+    </weaver>
+</aspectj>
